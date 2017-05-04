@@ -1,0 +1,108 @@
+body {
+  background: #F8EDED;
+}
+h1.logo {
+  font-family: "Roboto", "sans-serif";
+  text-align: center;
+}
+form {
+  position: relative;
+
+}
+
+form input {
+  width: 100%;
+  height: 40px;
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  border: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  text-indent: 15px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 2px 7px 0px #d6cece;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 0;
+  margin: 0;
+  background: #EAC8C8;
+}
+
+button:focus {
+  outline:0;
+}
+
+.add_symbol {
+  width: 50%;
+}
+
+ul#todo {
+  font-family: "Roboto", "sans-serif";
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+ul#done {
+  position: relative;
+  font-family: "Roboto", "sans-serif";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+ul li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+.check_mark {
+  background: url("assets/group.svg");
+  background-repeat: no-repeat;
+  float: left;
+  width: 10%;
+  height: 20px;
+  z-index: 99999;
+  cursor: pointer;
+}
+
+.delete_icon {
+  background: url("assets/delete.svg");
+  background-repeat: no-repeat;
+  width: 10%;
+  height: 20px;
+  float: left;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+#completed_message {
+  font-family: "Roboto", "sans-serif";
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 16px;
+}
